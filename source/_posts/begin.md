@@ -2,9 +2,11 @@
 title: begin
 date: 2022-04-05 00:20:08
 tags:
-- 原创
+    - 原创
 categories:
-- Test
+    - Test
+cover: /images/begin.jpeg
+top_img: /images/sword.png
 ---
 
 一切从此开始
