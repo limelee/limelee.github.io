@@ -1,0 +1,7 @@
+bottom:
+    - class_name: cloud_music
+      id_name: cloud_music
+      name: 网易云音乐
+      icon: fa fa-headphones-simple
+      order:
+      html: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=270 height=450 src="//music.163.com/outchain/player?type=0&id=7366668406&auto=1&height=430"></iframe>'

@@ -117,3 +117,35 @@ electric_clock:
 aplayer:
   meting: true
   asset_inject: false
+
+douban:
+  user: 205987463
+  builtin: true
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+    meta: true
+    comments: true
+    top_img: https://cccccc.png
+    aside: true
+    path: books
+    limit: 5
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+    meta: true
+    comments: true
+    top_img: https://cccccc.png
+    aside: true
+    path: movies
+    limit: 5
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+    meta: true
+    comments: true
+    top_img: https://cccccc.png
+    aside: true
+    path: games
+    limit: 5
+  timeout: 10000
