@@ -528,7 +528,7 @@ canvas_nest:
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # open particle animation (冒光特效)
   shake: true #  open shake (抖動特效)
   mobile: false
@@ -546,11 +546,20 @@ click_heart:
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 ClickShowText:
-  enable: false
+  enable: true
   text:
-    # - I
-    # - LOVE
-    # - YOU
+    - 富强
+    - 民主
+    - 文明
+    - 和谐
+    - 自由
+    - 平等
+    - 公正
+    - 法制
+    - 爱国
+    - 敬业
+    - 诚信
+    - 友善
   fontSize: 15px
   random: false
   mobile: false
@@ -588,18 +597,18 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
-  loop: true
+  loop: false
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 3
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
@@ -821,11 +830,20 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/css/shubiao.css"> # 鼠标指针
   bottom:
     # - <script src="xxxx"></script>
     - <script src="https://cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script> # 背景动态线条
-    - <div class="aplayer no-destroy" data-id="7366668406" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
-    - <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    - <div class="aplayer no-destroy" data-id="7366668406" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div> # 音乐
+    - <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script> # 看板娘
+    - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/qipao.js"></script> # 头部上升气泡
+    - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js"></script>  # 动态彩带
+    - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxingxing.js"></script>  # 鼠标跟随小星星
+    - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/dianjichuzi.js"></script>  # 鼠标点击社会主义核心价值观
+    # cdn.jsdelivr.net/gh/bynotes/texiao/source/js/love.js # 鼠标点击出小爱心❤
+    # - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/jingtaisidai.js"></script> # 静态彩带
+    # //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/yinghua.js # 樱花飘落
+    # cdn.jsdelivr.net/gh/bynotes/texiao/source/js/boom.js # 鼠标点击爆炸效果 //cdn.bootcss.com/animejs/2.2.0/anime.min.js #依赖
 
 # CDN
 # Don't modify the following settings unless you know how they work
