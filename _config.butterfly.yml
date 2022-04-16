@@ -634,7 +634,7 @@ aside:
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 乘天地之正, 御六气之辩, 以游无穷。🐱
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -840,6 +840,8 @@ inject:
     - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js"></script>  # 动态彩带
     - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxingxing.js"></script>  # 鼠标跟随小星星
     - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/dianjichuzi.js"></script>  # 鼠标点击社会主义核心价值观
+    # - <script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fishes.js"></script> # 养鱼 
+    # - <script defer src="https://uuuuu.cf/js/fishes.js"></script> # 页脚养鱼(彩色)
     # cdn.jsdelivr.net/gh/bynotes/texiao/source/js/love.js # 鼠标点击出小爱心❤
     # - <script src="https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/jingtaisidai.js"></script> # 静态彩带
     # //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/yinghua.js # 樱花飘落

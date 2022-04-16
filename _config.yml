@@ -149,3 +149,8 @@ douban:
     path: games
     limit: 5
   timeout: 10000
+encrypt: # hexo-blog-encrypt
+  abstract: 这里有东西被加密了, 需要输入密码查看哦。
+  message: 天机不可泄露!
+  wrong_pass_message: 都说了天机不可泄露!
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
