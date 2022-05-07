@@ -7,7 +7,6 @@ categories:
     - Test
 cover: /images/begin.jpeg
 top_img: /images/sword.png
-password: jiangyuchi
 ---
 
 一切从此开始
